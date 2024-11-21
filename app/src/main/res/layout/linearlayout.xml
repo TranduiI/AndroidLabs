@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="toPink_Red"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="227dp"
+        android:backgroundTint="#000000"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="227dp"
+        android:backgroundTint="#000000"
+        android:text="TextView2"
+        app:layout_constraintBottom_toTopOf="@+id/pink_red"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/pink_red"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:onClick="toPink_Red"
+        android:text="Pink-Red"
+        app:layout_constraintBottom_toTopOf="@+id/orange_black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        android:textColor="@color/b5"
+        android:backgroundTint="@color/b1"/>
+
+    <Button
+        android:id="@+id/orange_black"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:onClick="toOrange_Black"
+        android:text="Orange-Black"
+        app:layout_constraintBottom_toTopOf="@+id/yellow_green"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pink_red"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/b2"/>
+
+    <Button
+        android:id="@+id/yellow_green"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:onClick="toYellow_Green"
+        android:text="Yellow-Green"
+        app:layout_constraintBottom_toTopOf="@+id/red"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/orange_black"
+        android:textColor="@color/green"
+        android:backgroundTint="@color/b3"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/pink"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="toPink"
+            android:text="PINK"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/red"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/yellow_green"
+            app:layout_constraintVertical_bias="1.0"
+            android:backgroundTint="@color/b1"/>
+
+        <Button
+            android:id="@+id/white"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="toWhite"
+            android:text="GREEN"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/red"
+            app:layout_constraintTop_toBottomOf="@+id/yellow_green"
+            app:layout_constraintVertical_bias="0.666"
+            android:backgroundTint="@color/green"/>
+
+        <Button
+            android:id="@+id/red"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="toRed"
+            android:text="RED"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/white"
+            app:layout_constraintStart_toEndOf="@+id/pink"
+            app:layout_constraintTop_toBottomOf="@+id/yellow_green"
+            android:backgroundTint="@color/b5"/>
+    </LinearLayout>
+</LinearLayout>
