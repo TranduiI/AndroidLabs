@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">laba19</string>
+    <string name="new_toast">Добавлена новая запись!</string>
+    <string name="edit_toast">Запись отредактирована!</string>
+</resources>
