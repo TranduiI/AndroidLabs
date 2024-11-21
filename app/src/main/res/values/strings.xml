@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">laba11</string>
+    <string name="preferences">ColorPref</string>
+    <string name="colorValKey">1</string>
+</resources>

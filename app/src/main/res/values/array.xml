@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="color_names">
+        <item>Красный</item>
+        <item>Синий</item>
+        <item>Зеленый</item>
+        <item>Желтый</item>
+        <item>Белый</item>
+        <item>Фиолетовый</item>
+        <item>Черный</item>
+        <item>Малиновый</item>
+        <item>Бирюзовый</item>
+    </string-array>
+
+    <array name="color_values">
+        <item>#ffff2a2a</item>
+        <item>#ff2788ff</item>
+        <item>#ff42ff3c</item>
+        <item>#fff8ff3f</item>
+        <item>#ffffffff</item>
+        <item>#ff9327ff</item>
+        <item>#ff000000</item>
+        <item>#ffff42e5</item>
+        <item>#ff4bffdc</item>
+    </array>
+
+</resources>
