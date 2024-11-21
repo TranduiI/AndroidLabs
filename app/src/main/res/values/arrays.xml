@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <string-array name="ar1">
+            <item>Test1Ar1</item>
+            <item>Test2Ar1</item>
+            <item>Test3Ar1</item>
+            <item>Test4Ar1</item>
+        </string-array>
+        <string-array name="ar2">
+            <item>Test1Ar2</item>
+            <item>Test2Ar2</item>
+            <item>Test3Ar2</item>
+            <item>Test4Ar2</item>
+        </string-array>
+</resources>
