@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Laba9</string>
+    <string name="preferences">MySet</string>
+    <string name="int_element">1</string>
+    <string name="str1KeyEl">2</string>
+    <string name="str2KeyEl">3</string>
+
+</resources>
